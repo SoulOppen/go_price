@@ -19,22 +19,16 @@ Calcular el precio tentativo de una joya basado en los metales que contiene, con
    - Se puede usar una API de metales preciosos (por ejemplo, [Metals-API](https://metals-api.com)).
 
 4. **Calcular el precio base de cada metal**:
-   
-   \[
-   \text{PrecioMetal} = \text{Cantidad} \times \text{PrecioUnitario}
-   \]
+
+   PrecioMetal = Cantidad × PrecioUnitario
 
 5. **Sumar los precios de todos los metales** para obtener el precio total base:
 
-   \[
-   \text{PrecioBase} = \sum_{\text{metal}} \text{PrecioMetal}
-   \]
+   PrecioBase = PrecioMetal1 + PrecioMetal2 + ...
 
 6. **Aplicar un margen de joyería** (por diseño, trabajo y ganancia):
 
-   \[
-   \text{PrecioFinal} = \text{PrecioBase} \times (1 + \text{margen})
-   \]
+   PrecioFinal = PrecioBase × (1 + Margen)
 
 ---
 
@@ -66,5 +60,4 @@ Calcular el precio tentativo de una joya basado en los metales que contiene, con
 
 ## Referencias
 
-- [Metals-API](https://metals-api.com) – API para precios de metales preciosos
-- [World Gold Council](https://www.gold.org) – Información sobre oro y mercado global
+- [Metals-API](https://metals-api.com) – API para precios de metales precioso
